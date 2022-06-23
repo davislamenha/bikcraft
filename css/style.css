@@ -1,0 +1,64 @@
+/* ========= GERAL ============ */
+
+:root {
+  --black: #000000;
+  --white: #ffffff;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 62.5%;
+}
+html,
+body {
+  scroll-behavior: smooth;
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* ========= HEADER ============ */
+header {
+  background-color: var(--black);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .logo-header {
+  padding-block: 3.4rem;
+  margin-left: 22rem;
+}
+header .menu {
+  display: flex;
+  gap: 4rem;
+
+  margin-right: 22rem;
+}
+header .menu-link {
+  font-family: "Poppins";
+
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 180%;
+
+  color: var(--white);
+}
