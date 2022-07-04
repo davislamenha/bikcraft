@@ -19,3 +19,6 @@
 
 /* ========= INSURANCE ============ */
 @import "./insurance/insurance.css";
+
+/* ========= TERMS AND CONDITIONS ============ */
+@import "./terms/terms.css";

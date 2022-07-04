@@ -1,0 +1,28 @@
+.terms-bg {
+  background-color: var(--gray12);
+  padding-block: 6rem;
+}
+.terms {
+  padding-block: 8rem;
+}
+.terms h2 {
+  margin-bottom: 1.6rem;
+}
+.terms p {
+  max-width: 75ch;
+}
+.terms h2 ~ p {
+  margin-bottom: 2rem;
+}
+.terms p:nth-child(n + 4):nth-child(-n + 6) {
+  margin-bottom: 4rem;
+}
+
+@media (max-width: 600px) {
+  .terms {
+    padding-block: 4rem;
+  }
+  .terms p:nth-child(n + 4):nth-child(-n + 6) {
+    margin-bottom: 2rem;
+  }
+}
