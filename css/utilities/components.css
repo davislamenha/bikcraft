@@ -24,6 +24,20 @@
   background: var(--gradient-hover);
 }
 
+.btn.seta {
+  display: flex;
+  align-items: center;
+
+  gap: 1.6rem;
+}
+.btn.seta img {
+  transition: 0.5s ease;
+}
+.btn.seta:hover img {
+  background: var(--gradient-hover);
+  transform: translateX(0.5rem);
+}
+
 .link {
   display: inline-block;
   font: 500 2.4rem/1.5 "Poppins", sans-serif;
