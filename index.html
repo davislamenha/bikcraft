@@ -7,11 +7,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para o cliente. Explore seu mundo na sua velocidade com sua Bikcraft.">
   <title>Bikcraft - Bicicletas Elétricas</title>
+
   <link rel="stylesheet" href="./css/style.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@500;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -21,35 +22,204 @@
       <nav class="header-menu">
         <a href="#"><img class="logo-header" src="./img/bikcraft.svg" alt="Bikcraft"></a>
 
-        <ul class="header-menu-item" aria-label="primary">
-          <li class="header-menu-list"><a class="header-menu-link" href="#">Bicicletas</a></li>
-          <li class="header-menu-list"><a class="header-menu-link" href="#">Seguros</a></li>
-          <li class="header-menu-list"><a class="header-menu-link" href="#">Contato</a></li>
+        <ul class="header-menu-item w" aria-label="primary">
+          <li class="header-menu-list"><a class="header-menu-link poppins-18" href="#">Bicicletas</a></li>
+          <li class="header-menu-list"><a class="header-menu-link poppins-18" href="#">Seguros</a></li>
+          <li class="header-menu-list"><a class="header-menu-link poppins-18" href="#">Contato</a></li>
         </ul>
       </nav>
 
   </header>
 
-  <section class="home" id="home">
+  <main class="intro" id="intro">
     <div class="container">
 
       <div class="col-a">
 
-        <h1 class="titulo-64">Bicicletas feitas sob medida<span class="period titulo-64">.</span></h1>
-        <p class="texto-24">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft.</p>
+        <h1 class="poppins-64 w">Bicicletas feitas sob medida<span class="poppins-64 primary-01">.</span></h1>
+        <p class="roboto-24 gray-06">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft.</p>
         <a class="btn" href="./">SELECIONE A SUA</a>
-        <img src="./img/dec/top-right.svg" alt="">
+        <img class="deco-intro" src="./img/dec/bottom-left.svg" alt="">
       </div>
 
 
-      <div class="col-b">
-        <img class="nimbus-home" src="./img/bicicletas/nimbus-home.jpg" alt="Bicicleta Nimbus Stark">
+      <div>
+        <img class="nimbus-intro" src="./img/fotos/introducao.jpg" alt="Bicicleta Elétrica Preta Nimbus Stark">
+      </div>
+
+
+    </div>
+  </main>
+
+  <article class="bikes-list">
+
+    <h2 class="container poppins-64 gray-12">escolha a sua<span class="poppins-64 primary-01">.</span></h2>
+
+    <ul>
+      <li>
+        <a href="./bicicletas/magic.html">
+          <img src="./img/bicicletas/magic-home.jpg" alt="Bicicleta Preta">
+          <h3 class="poppins-32 gray-12">Magic Might</h3>
+          <span class="roboto-18 gray-08">R$ 2499</span>
+        </a>
+      </li>
+      <li>
+        <a href="./bicicletas/nimbus.html">
+          <img src="./img/bicicletas/nimbus-home.jpg" alt="Bicicleta Preta">
+          <h3 class="poppins-32 gray-12">Nimbus Stark</h3>
+          <span class="roboto-18 gray-08">R$ 4999</span>
+        </a>
+      </li>
+      <li>
+        <a href="./bicicletas/nebula.html">
+          <img src="./img/bicicletas/nebula-home.jpg" alt="Bicicleta Branca">
+          <h3 class="poppins-32 gray-12">Nebula Cosmic</h3>
+          <span class="roboto-18 gray-08">R$ 3999</span>
+        </a>
+      </li>
+    </ul>
+
+  </article>
+
+  <article class="tech">
+
+    <div class="container">
+      <div class="col-a">
+        <span class="roboto-24b gray-05">Tecnologia Avançada</span>
+        <h2 class="poppins-64 w">Você escolhe as suas cores e componentes<span class="poppins-64 primary-01">.</span></h2>
+        <p class="roboto-24 gray-06">Cada Bikcraft é única e possui a sua identidade. As medidas serão exatas para o seu corpo e altura, garantindo maior conforto e ergonomia na sua pedalada. Você pode também personalizar completamente as suas cores.</p>
+        <a class="link" href="">Escolha seu modelo</a>
+
+        <div class="tech-adv">
+          <div>
+            <img src="./img/icones/eletrica.svg" alt="">
+            <h3 class="poppins-24 w">Motor Elétrico</h3>
+            <p class="roboto-16 gray-06">Toda Bikcraft é equipada com um motor elétrico que possui duração de até 120h. A bateria é recarregada com a sua energia gasta ao pedalar.</p>
+          </div>
+          <div>
+            <img src="./img/icones/rastreador.svg" alt="">
+            <h3 class="poppins-24 w">Rastreador</h3>
+            <p class="roboto-16 gray-06">Sabemos o quão preciosa é a sua Bikcraft, por isso adicionamos rastreadores e sistemas anti-furto para garantir o seu sossego.</p>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="tech-img">
+        <img src="./img/fotos/tecnologia.jpg" alt="Ferramentas">
       </div>
 
     </div>
+
+
+
+
+  </article>
+
+  <section class="partners" aria-label="Nossos Parceiros">
+    <h2 class="poppins-64 gray-12 container">nossos parceiros<span class="poppins-64 primary-01">.</span></h2>
+
+
+    <ul class="container">
+      <li><img src="./img/parceiros/caravan.svg" alt="Caravan"></li>
+      <li> <img src="./img/parceiros//dogs.svg" alt="Dogs"></li>
+      <li> <img src="./img/parceiros/flexblog.svg" alt="FlexBlog"></li>
+      <li><img src="./img/parceiros/handel.svg" alt="Handel"></li>
+      <li> <img src="./img/parceiros/lescone.svg" alt="LeScone"></li>
+      <li> <img src="./img/parceiros/ranek.svg" alt="Ranek"></li>
+      <li><img src="./img/parceiros/surfbot.svg" alt="Surfbot"></li>
+      <li><img src="./img/parceiros/wildbeast.svg" alt="WildBeast"></li>
+    </ul>
+
   </section>
 
+  <section class="review" aria-label="Depoimento">
 
+    <div class="review-img">
+      <img src="./img/fotos/depoimento.jpg" alt="Menina andando em uma bicicleta Bikcraft">
+    </div>
+    <div class="review-info">
+
+      <blockquote>
+        <p class="primary-05">
+          Pedalar sempre foi a minha paixão, o que o pessoal da Bikcraft fez foi intensificar o meu amor por esta atividade. Recomendo à todos que amo.
+        </p>
+      </blockquote>
+
+
+      <span class="poppins-24 primary-04">Ana Júlia</span>
+    </div>
+
+  </section>
+
+  <article class="insurance">
+    <div class="container">
+
+      <h2 class="poppins-64 w">seguros<span class="poppins-64 primary-01">.</span></h2>
+
+      <div class="insurance-info">
+        <div>
+          <h3 class="poppins-36 gray-06">Prata<span class="poppins-36 w">R$ 199</span></h3>
+          <ul>
+            <li><img src="./img/icones/lista.svg" alt="">Duas trocas por ano</li>
+            <li><img src="./img/icones/lista.svg" alt="">Assistência técnica</li>
+            <li><img src="./img/icones/lista.svg" alt="">Suporte de 08h ás 18h</li>
+            <li><img src="./img/icones/lista.svg" alt="">Cobertura estadual</li>
+          </ul>
+          <a href="" class="btn">INSCREVA-SE</a>
+        </div>
+
+        <div>
+          <h3 class="poppins-36 primary-01">Ouro<span class="poppins-36 w">R$ 299</span></h3>
+          <ul>
+            <li><img src="./img/icones/lista.svg" alt="">Cinco trocas por ano</li>
+            <li><img src="./img/icones/lista.svg" alt="">Assistência especial</li>
+            <li><img src="./img/icones/lista.svg" alt="">Suporte 24h</li>
+            <li><img src="./img/icones/lista.svg" alt="">Cobertura nacional</li>
+            <li><img src="./img/icones/lista.svg" alt="">Desconto em parceiros</li>
+            <li><img src="./img/icones/lista.svg" alt="">Acesso ao Clube Bikcraft</li>
+          </ul>
+          <a href="" class="btn">INSCREVA-SE</a>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <footer>
+    <div class="container">
+      <div class="footer-logo"><img src="./img/bikcraft.svg" alt="Bikcraft"></div>
+
+      <div class="contact">
+        <h3 class="roboto-24 w">Contato</h3>
+        <ul class="contact-info">
+          <li><a href="tel:+558299999999">+55 82 9999-9999</a></li>
+          <li><a href="mailto:contato@bikcraft.com">contato@bikcraft.com</a></li>
+        </ul>
+        <ul class="contact-andress">
+          <li>Rua logo ali, 291 - Poço</li>
+          <li>Maceió - AL</li>
+        </ul>
+        <div class="social-links">
+          <a href=""><img src="./img/redes/instagram.svg" alt="Instagram"></a>
+          <a href=""><img src="./img/redes/facebook.svg" alt="Facebook"></a>
+          <a href=""><img src="./img/redes/youtube.svg" alt="Youtube"></a>
+        </div>
+      </div>
+
+      <div class="info">
+        <h3 class="roboto-24 w">Informações</h3>
+        <ul>
+          <li><a href="">Bicicletas</a></li>
+          <li><a href="">Seguro</a></li>
+          <li><a href="">Contato</a></li>
+          <li><a href="">Termos e condições</a></li>
+        </ul>
+      </div>
+
+      <span class="roboto-18 gray-05">Bikcraft © Alguns direitos reservados.</span>
+    </div>
+  </footer>
 </body>
 
 </html>

@@ -1,0 +1,54 @@
+.bikes-list {
+  padding-block: 6rem;
+}
+.bikes-list .poppins-64 {
+  margin-bottom: 4rem;
+}
+.bikes-list ul a {
+  display: block;
+}
+.bikes-list ul {
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+
+  max-width: 144rem;
+  margin-inline: auto;
+  padding: 0 2rem 2rem 2rem;
+
+  overflow-x: auto;
+}
+.bikes-list ul li {
+  min-width: 28rem;
+}
+.bikes-list ul li span {
+  padding-left: 2rem;
+}
+.bikes-list ul img {
+  margin-bottom: 1.6rem;
+}
+.bikes-list ul .poppins-32 {
+  margin-bottom: 0.8rem;
+  display: flex;
+  align-items: center;
+}
+.bikes-list ul .poppins-32::before {
+  display: inline-block;
+  content: "";
+  background-color: var(--primary01);
+  width: 1.2rem;
+  height: 0.8rem;
+  margin-right: 0.8rem;
+
+  transition: 0.3s ease-in-out;
+}
+.bikes-list ul li:hover .poppins-32::before {
+  width: 2.4rem;
+  background: var(--gradient-hover);
+}
+
+@media (max-width: 800px) {
+  .bikes-list ul {
+    gap: 2rem;
+  }
+}
