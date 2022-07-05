@@ -2,9 +2,12 @@
   background: var(--gray12);
   padding-block: 6rem;
 }
-.insurance h2 {
+.insurance h2,
+.insurance h1,
+.insurance-adv h2 {
   margin-bottom: 6rem;
 }
+
 .insurance-info {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -57,6 +60,80 @@
   background: linear-gradient(var(--gray11), var(--gray12));
 }
 
+.insurance-adv {
+  background-color: var(--black);
+  padding-block: 12rem;
+}
+.insurance-adv .adv-item {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, max-content));
+  gap: 4rem 8rem;
+}
+.insurance-adv .adv-list img,
+.insurance-adv .adv-list h3 {
+  margin-bottom: 0.8rem;
+}
+
+@media (max-width: 800px) {
+  .insurance-adv .adv-item {
+    gap: 4rem 4rem;
+  }
+  .insurance-adv .adv-list img {
+    width: 2.4rem;
+  }
+  .insurance-adv {
+    padding-block: 8rem;
+  }
+}
+
+.insurance-faq {
+  padding-block: 12rem;
+}
+.insurance-faq h2 {
+  margin-bottom: 6rem;
+}
+.insurance-faq .faq-info {
+  padding: 2rem 4rem;
+}
+.insurance-faq .faq-info:nth-child(odd) {
+  background-color: var(--gray02);
+  border-radius: 0.5rem;
+}
+.insurance-faq .faq-info dt::before {
+  position: absolute;
+  display: inline-block;
+  content: "";
+  width: 1.2rem;
+  height: 0.8rem;
+  background-color: var(--primary01);
+  top: 0.6rem;
+  left: -1.8rem;
+}
+.insurance-faq .faq-info dt {
+  cursor: pointer;
+  position: relative;
+  margin-bottom: 1.2rem;
+  font-weight: 600;
+}
+.insurance-faq .faq-info dt::after {
+  position: absolute;
+  display: inline-block;
+  content: "";
+  width: 1.35rem;
+  height: 0.5rem;
+  background-image: url(../../img/icones/seta-abrir.svg);
+  top: 0.8rem;
+  right: -2rem;
+
+  transition: 0.3s ease;
+}
+.insurance-faq .faq-info dt:hover::after {
+  transform: rotate(180deg);
+}
+.insurance-faq .faq-info dd {
+  max-width: 80ch;
+}
+
 @media (max-width: 800px) {
   .insurance-info {
     grid-template-columns: 1fr;
@@ -65,6 +142,12 @@
   }
   .insurance-info li {
     font-size: 1.6rem;
+  }
+  .insurance-faq {
+    padding-block: 6rem;
+  }
+  .insurance-faq h2 {
+    margin-bottom: 4rem;
   }
 }
 
@@ -81,5 +164,15 @@
   .insurance-info ul {
     gap: 1.2rem;
     margin-bottom: 2rem;
+  }
+  .insurance-adv .adv-item {
+    gap: 2rem;
+  }
+  .insurance-adv .adv-list img {
+    width: 2rem;
+  }
+
+  .insurance-adv {
+    padding-block: 6rem;
   }
 }
