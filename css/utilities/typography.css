@@ -19,6 +19,10 @@
 }
 
 /*====== ROBOTO ======*/
+.roboto-36 {
+  font: 500 3.6rem/1 "Roboto", sans-serif;
+  text-transform: uppercase;
+}
 .roboto-24 {
   font: 400 2.4rem/1.5 "Roboto", sans-serif;
 }
@@ -32,6 +36,9 @@
 }
 .roboto-16 {
   font: 400 1.6rem/1.5 "Roboto", sans-serif;
+}
+.roboto-14 {
+  font: 400 1.4rem/1.5 "Roboto", sans-serif;
 }
 
 /*====== RESPONSIVE ======*/
@@ -56,6 +63,9 @@
   .poppins-36 {
     font-size: 3rem;
   }
+  .poppins-32 {
+    font-size: 2.8rem;
+  }
   .poppins-24 {
     font-size: 2rem;
   }
@@ -77,6 +87,9 @@
     font-size: 3rem;
   }
   .poppins-36 {
+    font-size: 2.4rem;
+  }
+  .poppins-32 {
     font-size: 2.4rem;
   }
   .poppins-24 {

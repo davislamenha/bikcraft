@@ -15,8 +15,10 @@
 @import "./home/review.css";
 
 /* ========= BIKES ============ */
-@import "./bikes/bikes.css";
 @import "./bikes/bikes-list.css";
+@import "./bikes/bikes.css";
+@import "./bikes/bike-about.css";
+@import "./bikes/bike-insurance.css";
 
 /* ========= INSURANCE ============ */
 @import "./insurance/insurance.css";
