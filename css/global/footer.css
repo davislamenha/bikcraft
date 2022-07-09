@@ -21,7 +21,7 @@ footer .contact-info::after,
 footer .contact-andress::after {
   content: "";
   display: block;
-  width: 36rem;
+  max-width: 36rem;
   height: 0.1rem;
   background-color: var(--gray11);
   margin-block: 1rem;

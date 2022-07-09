@@ -5,6 +5,8 @@
   --gradient: linear-gradient(#ffbf00, #f2a60c);
   --gradient-hover: linear-gradient(#ffb60d, #e59317);
 
+  --focus: #fea;
+
   --primary01: #ffbb00;
   --primary02: #e4a30b;
   --primary03: #a66f00;
