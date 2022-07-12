@@ -30,3 +30,6 @@
 /* ========= CONTACT ============ */
 @import "./contact/contact.css";
 @import "./contact/location.css";
+
+/* ========= QUOTE ============ */
+@import "./quote/quote.css";

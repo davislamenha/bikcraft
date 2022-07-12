@@ -58,11 +58,11 @@
   gap: 3.2rem;
 }
 .contact-social img {
-  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
   transition: 0.3s;
 }
 .contact-social img:hover {
-  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
 }
 
 @media (max-width: 1200px) {

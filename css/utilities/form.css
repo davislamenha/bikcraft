@@ -18,7 +18,9 @@
   margin-bottom: 0.8rem;
 }
 .form input,
-.form textarea {
+.form textarea,
+.form select,
+.form select option {
   font: 400 1.6rem/1.5 "Roboto", sans-serif;
   color: var(--gray12);
   background-color: var(--gray02);
@@ -28,7 +30,8 @@
   margin-bottom: 2rem;
 }
 .form input:focus,
-.form textarea:focus {
+.form textarea:focus,
+.form select:focus {
   outline: none;
   border: 1px solid var(--primary01);
   background-color: var(--white);
@@ -54,6 +57,12 @@
   }
   .form label:nth-child(2) {
     grid-row: 3;
+  }
+  .form label:nth-child(6) {
+    grid-row: 7;
+  }
+  .form label:nth-child(10) {
+    grid-row: 11;
   }
 }
 
