@@ -1,5 +1,6 @@
 .intro {
-  background-color: var(--gray12);
+  background: var(--gray12) url(../../img/dec/bottom-left.svg) no-repeat bottom
+    150px left 20px;
 
   box-shadow: inset 0px -120px var(--white);
 }
@@ -25,13 +26,6 @@
   margin-bottom: 2rem;
 }
 
-.intro .deco-intro {
-  position: absolute;
-
-  bottom: 14rem;
-  left: 0rem;
-}
-
 .intro .nimbus-intro {
   border-radius: 0.5rem;
   height: 100%;
@@ -46,29 +40,17 @@
   .intro .container {
     grid-template-columns: 1fr;
 
-    gap: 2rem;
+    gap: 0rem;
   }
   .intro .col-a {
-    padding-block: 10rem 14rem;
+    padding-block: 6rem 4rem;
   }
   .intro h1.poppins-64 {
     margin-bottom: 1.6rem;
   }
-  .intro .deco-intro {
-    bottom: 4rem;
-    left: 0rem;
-  }
-  .intro .nimbus-intro {
-    height: 30rem;
-    width: 100%;
-  }
-}
 
-@media (max-width: 600px) {
-  .intro .container {
-    gap: 0rem;
-  }
-  .intro .col-a {
-    padding-block: 8rem 12rem;
+  .intro .nimbus-intro {
+    max-height: 30rem;
+    width: 100%;
   }
 }

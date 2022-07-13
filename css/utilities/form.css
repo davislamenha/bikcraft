@@ -1,5 +1,6 @@
 .form-bg {
-  background-color: var(--white);
+  background: var(--white) url(../../img/dec/bottom-right.svg) no-repeat bottom
+    20px right 20px;
   border-radius: 0 5px 5px 0;
   padding: 6rem;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
@@ -42,6 +43,9 @@
 }
 
 @media (max-width: 1200px) {
+  .form-bg {
+    background: var(--white);
+  }
   .form-bg {
     border-radius: 0 0 5px 5px;
   }

@@ -8,6 +8,8 @@
   <meta name="description" content="Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para o cliente. Explore seu mundo na sua velocidade com sua Bikcraft.">
   <title>Bikcraft - Bicicletas Elétricas</title>
 
+
+  <link rel="preload" href="./css/style.css" as="style">
   <link rel="stylesheet" href="./css/style.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,12 +22,12 @@
     <div class="container">
 
       <nav class="header-menu">
-        <a href="#"><img class="logo-header" src="./img/bikcraft.svg" alt="Bikcraft"></a>
+        <a href="./index.html"><img class="logo-header" src="./img/bikcraft.svg" alt="Bikcraft" width="136" height="32"></a>
 
         <ul class="header-menu-item w" aria-label="primary">
-          <li class="header-menu-list"><a class="header-menu-link poppins-18" href="#">Bicicletas</a></li>
-          <li class="header-menu-list"><a class="header-menu-link poppins-18" href="#">Seguros</a></li>
-          <li class="header-menu-list"><a class="header-menu-link poppins-18" href="#">Contato</a></li>
+          <li class="header-menu-list"><a class="header-menu-link poppins-18" href="./bikes.html">Bicicletas</a></li>
+          <li class="header-menu-list"><a class="header-menu-link poppins-18" href="./insurance.html">Seguros</a></li>
+          <li class="header-menu-list"><a class="header-menu-link poppins-18" href="./contact.html">Contato</a></li>
         </ul>
       </nav>
 
@@ -39,13 +41,14 @@
         <h1 class="poppins-64 w">Bicicletas feitas sob medida<span class="poppins-64 primary-01">.</span></h1>
         <p class="roboto-24 gray-06">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft.</p>
         <a class="btn" href="./">SELECIONE A SUA</a>
-        <img class="deco-intro" src="./img/dec/bottom-left.svg" alt="">
+
       </div>
 
 
-      <div>
-        <img class="nimbus-intro" src="./img/fotos/introducao.jpg" alt="Bicicleta Elétrica Preta Nimbus Stark">
-      </div>
+      <picture>
+        <source media="(max-width: 800px)" srcset="./img/bicicletas/nimbus.jpg">
+        <img class="nimbus-intro" src="./img/fotos/introducao.jpg" alt="Bicicleta Elétrica Preta Nimbus Stark" width="1280" height="1600">
+      </picture>
 
 
     </div>
@@ -58,21 +61,21 @@
     <ul>
       <li>
         <a href="./bikes/magic.html">
-          <img src="./img/bicicletas/magic-home.jpg" alt="Bicicleta Preta">
+          <img src="./img/bicicletas/magic-home.jpg" alt="Bicicleta Preta" width="920" height="1040">
           <h3 class="poppins-32 gray-12">Magic Might</h3>
           <span class="roboto-18 gray-08">R$ 2499</span>
         </a>
       </li>
       <li>
         <a href="./bikes/nimbus.html">
-          <img src="./img/bicicletas/nimbus-home.jpg" alt="Bicicleta Preta">
+          <img src="./img/bicicletas/nimbus-home.jpg" alt="Bicicleta Preta" width="920" height="1040">
           <h3 class="poppins-32 gray-12">Nimbus Stark</h3>
           <span class="roboto-18 gray-08">R$ 4999</span>
         </a>
       </li>
       <li>
         <a href="./bikes/nebula.html">
-          <img src="./img/bicicletas/nebula-home.jpg" alt="Bicicleta Branca">
+          <img src="./img/bicicletas/nebula-home.jpg" alt="Bicicleta Branca" width="920" height="1040">
           <h3 class="poppins-32 gray-12">Nebula Cosmic</h3>
           <span class="roboto-18 gray-08">R$ 3999</span>
         </a>
@@ -137,7 +140,7 @@
   <section class="review" aria-label="Depoimento">
 
     <div class="review-img">
-      <img src="./img/fotos/depoimento.jpg" alt="Menina andando em uma bicicleta Bikcraft">
+      <img src="./img/fotos/depoimento.jpg" alt="Menina andando em uma bicicleta Bikcraft" width="1560" height="1360">
     </div>
     <div class="review-info">
 
@@ -188,7 +191,7 @@
 
   <footer>
     <div class="container">
-      <div class="footer-logo"><img src="./img/bikcraft.svg" alt="Bikcraft"></div>
+      <div class="footer-logo"><img src="./img/bikcraft.svg" alt="Bikcraft" width="136" height="32"></div>
 
       <div class="contact">
         <h3 class="roboto-24 w">Contato</h3>
@@ -210,9 +213,9 @@
       <div class="info">
         <h3 class="roboto-24 w">Informações</h3>
         <ul>
-          <li><a href="">Bicicletas</a></li>
-          <li><a href="">Seguro</a></li>
-          <li><a href="">Contato</a></li>
+          <li><a href="./bikes.html">Bicicletas</a></li>
+          <li><a href="./insurance.html">Seguro</a></li>
+          <li><a href="./contact.html">Contato</a></li>
           <li><a href="./terms.html">Termos e condições</a></li>
         </ul>
       </div>

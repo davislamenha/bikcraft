@@ -28,7 +28,8 @@
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
   align-content: start;
-  background-color: var(--black);
+  background: var(--black) url(../../img/dec/bottom-left.svg) no-repeat bottom
+    20px left 20px;
   border-radius: 5px 0 0 5px;
 }
 .quotation-bg > * {
@@ -141,7 +142,8 @@ label span {
 }
 
 .quote-data {
-  background-color: var(--white);
+  background: var(--white) url(../../img/dec/bottom-right.svg) no-repeat bottom
+    20px right 20px;
   border-radius: 0 5px 5px 0;
 }
 .quotation h2::before {
@@ -171,9 +173,11 @@ label span {
     grid-template-columns: 1fr;
   }
   .quotation-bg {
+    background: var(--black);
     border-radius: 5px 5px 0 0;
   }
   .quote-data {
+    background: var(--white);
     border-radius: 0 0 5px 5px;
   }
   .quote-data .form-data {
