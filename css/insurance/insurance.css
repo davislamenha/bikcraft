@@ -74,18 +74,6 @@
   margin-bottom: 0.8rem;
 }
 
-@media (max-width: 800px) {
-  .insurance-adv .adv-item {
-    gap: 4rem 4rem;
-  }
-  .insurance-adv .adv-list img {
-    width: 2.4rem;
-  }
-  .insurance-adv {
-    padding-block: 8rem;
-  }
-}
-
 .insurance-faq {
   padding-block: 12rem;
 }
@@ -99,7 +87,7 @@
   background-color: var(--gray02);
   border-radius: 0.5rem;
 }
-.insurance-faq .faq-info dt::before {
+.insurance-faq .faq-info button::before {
   position: absolute;
   display: inline-block;
   content: "";
@@ -109,13 +97,15 @@
   top: 0.6rem;
   left: -1.8rem;
 }
-.insurance-faq .faq-info dt {
+.insurance-faq .faq-info button {
+  width: 100%;
   cursor: pointer;
   position: relative;
   margin-bottom: 1.2rem;
   font-weight: 600;
+  text-align: left;
 }
-.insurance-faq .faq-info dt::after {
+.insurance-faq .faq-info button::after {
   position: absolute;
   display: inline-block;
   content: "";
@@ -127,14 +117,28 @@
 
   transition: 0.3s ease;
 }
-.insurance-faq .faq-info dt:hover::after {
-  transform: rotate(180deg);
-}
-.insurance-faq .faq-info dd {
+
+.js .insurance-faq .faq-info dd {
+  display: none;
   max-width: 80ch;
+}
+.js .insurance-faq .faq-info dd.active {
+  display: block;
+}
+.js .insurance-faq .faq-info button[aria-expanded="true"]::after {
+  transform: rotate(180deg);
 }
 
 @media (max-width: 800px) {
+  .insurance-adv .adv-item {
+    gap: 4rem 4rem;
+  }
+  .insurance-adv .adv-list img {
+    width: 2.4rem;
+  }
+  .insurance-adv {
+    padding-block: 8rem;
+  }
   .insurance-info {
     grid-template-columns: 1fr;
     max-width: 50rem;

@@ -15,6 +15,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@500;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+  <script>document.documentElement.classList.add('js');</script>
 </head>
 
 <body>
@@ -38,16 +40,16 @@
 
       <div class="col-a">
 
-        <h1 class="poppins-64 w">Bicicletas feitas sob medida<span class="poppins-64 primary-01">.</span></h1>
-        <p class="roboto-24 gray-06">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft.</p>
-        <a class="btn" href="./">SELECIONE A SUA</a>
+        <h1 class="poppins-64 w fadeInDown" data-anime="200">Bicicletas feitas sob medida<span class="poppins-64 primary-01">.</span></h1>
+        <p class="roboto-24 gray-06 fadeInLeft" data-anime="400">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft.</p>
+        <a class="btn fadeInLeft" data-anime="600" href="./">SELECIONE A SUA</a>
 
       </div>
 
 
       <picture>
         <source media="(max-width: 800px)" srcset="./img/bicicletas/nimbus.jpg">
-        <img class="nimbus-intro" src="./img/fotos/introducao.jpg" alt="Bicicleta Elétrica Preta Nimbus Stark" width="1280" height="1600">
+        <img data-anime="800" class="nimbus-intro fadeInUp" src="./img/fotos/introducao.jpg" alt="Bicicleta Elétrica Preta Nimbus Stark" width="1280" height="1600">
       </picture>
 
 
@@ -223,6 +225,8 @@
       <span class="roboto-18 gray-05">Bikcraft © Alguns direitos reservados.</span>
     </div>
   </footer>
+  <script src="./js/plugins/simple-anime.js"></script>;
+  <script src="./js/script.js"></script>
 </body>
 
 </html>

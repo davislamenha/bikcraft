@@ -20,6 +20,7 @@ header .header-menu-item {
 
   gap: 4rem;
 }
+
 header .header-menu-link {
   display: inline-block;
   position: relative;
@@ -40,7 +41,9 @@ header .header-menu-link::after {
 
   transition: 0.5s ease-in-out;
 }
-header .header-menu-link:hover::after {
+
+header .header-menu-link:hover::after,
+header .header-menu-link.active::after {
   width: 100%;
 }
 
